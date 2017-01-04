@@ -5,3 +5,16 @@
     margin: 0;
     font-size: 100%;
     line-height: 1em;
+    
+}
+
+body{
+    
+width: 75%;
+    max-width: 700px;
+    font-family: 'Libre Baskerville', serif;
+    margin: auto;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.8;  
+}
