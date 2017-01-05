@@ -45,9 +45,9 @@ h3{
 }
 
 
-            #heroimage{
-    
-    background-color:#f7f7f7;
+    #heroimage{
+    background-image:url("../images/vignelli_header.png");
+    background-size: 100% 100%;
     color:#000;
     text-align: center;
     height: 400px;
@@ -366,8 +366,8 @@ blockquote cite{
     }
         
             #heroimage{
-    
-    background-color:#f7f7f7;
+    background-image:url("../images/vignelli_header_tablet.png");
+    background-size: 100% 100%;
     color:#000;
     text-align: center;
     height: 250px;
@@ -514,8 +514,8 @@ blockquote cite{
     
     
     #heroimage{
-    
-    background-color:#f7f7f7;
+    background-image:url("../images/vignelli_header_phablet.png");
+    background-size: 100% 100%;
     color:#000;
     text-align: center;
     height: 250px;
@@ -667,8 +667,8 @@ blockquote cite{
     
     
     #heroimage{
-    
-    background-color:#f7f7f7;
+    background-image:url("../images/vignelli_header_smartphone.png");
+    background-size: 100% 100%;
     color:#000;
     text-align: center;
     height: 250px;
