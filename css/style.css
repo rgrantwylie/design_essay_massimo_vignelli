@@ -29,7 +29,7 @@ p{
 
 p2{
     font-size: 45em;
-    left:-10%;
+    left:-5%;
     padding-top:-200px;
     position:absolute;
     
@@ -103,7 +103,7 @@ li{
     padding-top: 50px;
     color:#000;
     width: 600px;
-    margin-left: 55%;
+    margin-left: 50%;
 }
 
 #his-views{
@@ -112,7 +112,7 @@ li{
     padding-top: 50px;
     color:#000;
     width: 600px;
-    margin-left: 55%;
+    margin-left: 50%;
 }
 
 #his-principles{
@@ -121,7 +121,7 @@ li{
     padding-top: 50px;
     color:#000;
     width: 600px;
-    margin-left: 55%;
+    margin-left: 50%;
 }
 
 #his-work{
@@ -130,7 +130,7 @@ li{
     padding-top: 50px;
     color:#000;
     width: 600px;
-    margin-left: 55%;
+    margin-left: 50%;
 }
 
 #conclusion{
@@ -139,7 +139,7 @@ li{
     padding-top: 50px;
     color:#000;
     width: 600px;
-    margin-left: 55%;
+    margin-left: 50%;
 }
 
 #bibliography{
@@ -148,7 +148,7 @@ li{
     padding-top: 50px;
     color:#000;
     width: 600px;
-    margin-left: 55%;
+    margin-left: 50%;
 }
 
 
@@ -232,8 +232,8 @@ nav a:hover{
     background-color:#fff;
     padding-top: 50px;
     color:#000;
-    width: 390px;
-    margin-left: 55%;
+    width: 400px;
+    margin-left: 50%;
 }
     
     #his-views{
@@ -241,8 +241,8 @@ nav a:hover{
     background-color:#f7f7f7;
     padding-top: 50px;
     color:#000;
-    width: 390px;
-    margin-left: 55%;
+    width: 400px;
+    margin-left: 50%;
 }
     
         #his-principles{
@@ -250,8 +250,8 @@ nav a:hover{
     background-color:#fff;
     padding-top: 50px;
     color:#000;
-    width: 390px;
-    margin-left: 55%;
+    width: 400px;
+    margin-left: 50%;
 }
     
         #his-work{
@@ -259,8 +259,8 @@ nav a:hover{
     background-color:#f7f7f7;
     padding-top: 50px;
     color:#000;
-    width: 390px;
-    margin-left: 55%;
+    width: 400px;
+    margin-left: 50%;
 }
     
             #conclusion{
@@ -268,8 +268,8 @@ nav a:hover{
     background-color:#fff;
     padding-top: 50px;
     color:#000;
-    width: 390px;
-    margin-left: 55%;
+    width: 400px;
+    margin-left: 50%;
 }
     
             #bibliography{
@@ -277,8 +277,8 @@ nav a:hover{
     background-color:#f7f7f7;
     padding-top: 50px;
     color:#000;
-    width: 390px;
-    margin-left: 55%;
+    width: 400px;
+    margin-left: 50%;
 }
     
     h1{
@@ -312,8 +312,8 @@ p{
 }
     
     p2{
-    font-size: 40em;
-    left:-10%;
+    font-size: 30em;
+    left:-6%;
     padding-top:-200px;
     position:absolute;
     
@@ -459,7 +459,7 @@ p{
     
     p2{
     font-size: 30em;
-    left:-10%;
+    left:-8%;
     padding-top:-200px;
     position:absolute;
     
@@ -499,9 +499,10 @@ blockquote cite{
     
 }
 
-/* ---- SMARTPHONE-----*/
 
-@media (max-width: 35em){
+/* ---- PHABLET-----*/
+
+@media (max-width: 50em){
     
     
     body{
@@ -526,7 +527,7 @@ blockquote cite{
     background-color:#fff;
     padding-top: 50px;
     color:#000;
-    width: 200px;
+    width: 310px;
     margin-left: 40%;
 }
     
@@ -535,7 +536,7 @@ blockquote cite{
     background-color:#f7f7f7;
     padding-top: 50px;
     color:#000;
-    width: 200px;
+    width: 310px;
     margin-left: 40%;
 }
     
@@ -544,7 +545,7 @@ blockquote cite{
     background-color:#fff;
     padding-top: 50px;
     color:#000;
-    width: 200px;
+    width: 310px;
     margin-left: 40%;
 }
     
@@ -553,7 +554,7 @@ blockquote cite{
     background-color:#f7f7f7;
     padding-top: 50px;
     color:#000;
-    width: 200px;
+    width: 310px;
     margin-left: 40%;
 }
     
@@ -562,7 +563,7 @@ blockquote cite{
     background-color:#fff;
     padding-top: 50px;
     color:#000;
-    width: 200px;
+    width: 310px;
     margin-left: 40%;
 }
     
@@ -571,7 +572,7 @@ blockquote cite{
     background-color:#f7f7f7;
     padding-top: 50px;
     color:#000;
-    width: 200px;
+    width: 310px;
     margin-left: 40%;
 }
     
@@ -606,8 +607,161 @@ p{
 }
     
 p2{
-    font-size: 20em;
-    left:-10%;
+    font-size: 15em;
+    left:-4%;
+    padding-top:-200px;
+    position:absolute;
+}
+    
+blockquote{
+    
+    padding: 1em 0 2em 1em;
+    font-size: 1em;
+    line-height: 1.3;
+     margin-left: 1%;
+    margin-right: 15%;
+    color: #777;
+    
+}
+
+blockquote cite{
+    
+    font-size: .75em;
+    margin-bottom: 100em;
+    color: #777;
+}
+    
+    li{
+    list-style:square;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-left: 1%;
+    margin-right: 15%;
+    line-height: 1.3;
+    position: relative;
+}
+    
+    hgroup{}
+        
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+/* ---- SMARTPHONE-----*/
+
+@media (max-width: 35em){
+    
+    
+    body{
+        
+        margin: 0 auto;
+        width: 100%;
+        font-size: 100%; 
+    }
+    
+    
+    #heroimage{
+    
+    background-color:#f7f7f7;
+    color:#000;
+    text-align: center;
+    height: 250px;
+    
+}
+    
+    #introduction{
+    
+    background-color:#fff;
+    padding-top: 50px;
+    color:#000;
+    width: 227.5px;
+    margin-left: 40%;
+}
+    
+    #his-views{
+    
+    background-color:#f7f7f7;
+    padding-top: 50px;
+    color:#000;
+    width: 227.5px;
+    margin-left: 40%;
+}
+    
+        #his-principles{
+    
+    background-color:#fff;
+    padding-top: 50px;
+    color:#000;
+    width: 227.5px;
+    margin-left: 40%;
+}
+    
+        #his-work{
+    
+    background-color:#f7f7f7;
+    padding-top: 50px;
+    color:#000;
+    width: 227.5px;
+    margin-left: 40%;
+}
+    
+            #conclusion{
+    
+    background-color:#fff;
+    padding-top: 50px;
+    color:#000;
+    width: 227.5px;
+    margin-left: 40%;
+}
+    
+            #bibliography{
+    
+    background-color:#f7f7f7;
+    padding-top: 50px;
+    color:#000;
+    width: 227.5px;
+    margin-left: 40%;
+}
+    
+    h1{
+        top: 35%;
+    font-size: 1.75em;
+    position: relative;
+        text-align: center;
+}
+
+h2{
+    font-size: 0.75em;
+    position: relative;
+     text-align: center;
+    top: 35%;
+}
+
+h3{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-left: 1%;
+    margin-right: 1%;
+    position: relative;
+}
+    
+p{
+    font-size: 1em;
+    margin-left: 1%;
+    margin-right: 1%;
+    line-height: 1.3;
+    position: relative;
+}
+    
+p2{
+    font-size: 15em;
+    left:-8%;
     padding-top:-200px;
     position:absolute;
 }
