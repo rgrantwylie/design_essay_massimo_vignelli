@@ -10,11 +10,644 @@
 
 body{
     
-width: 75%;
-    max-width: 700px;
-    font-family: 'Libre Baskerville', serif;
+width: 100%;
+    max-width: 1920px;
+    font-family: Arial, Helvetica, sans-serif;
     margin: auto;
-    background-color: #f0f0f0;
+    background-color: #fff;
     color: #333;
     line-height: 1.8;  
+}
+
+p{
+    font-size: 1em;
+    margin-left: 1%;
+    margin-right: 15%;
+    line-height: 1.3;
+    position: relative;
+}
+
+p2{
+    font-size: 45em;
+    left:-10%;
+    padding-top:-200px;
+    position:absolute;
+    
+    
+}
+
+h3{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-left: 1%;
+    margin-right: 15%;
+    position: relative;
+}
+
+
+            #heroimage{
+    
+    background-color:#f7f7f7;
+    color:#000;
+    text-align: center;
+    height: 400px;
+    
+}
+    
+    h1{
+        top: 35%;
+        position:relative;
+    font-size: 3em;
+    
+        text-align: center;
+}
+
+h2{
+    font-size: 2em;
+    position: relative;
+     text-align: center;
+    top: 35%;
+}
+
+blockquote{
+    
+    padding: 1em 0 2em 1em;
+    font-size: 1em;
+    line-height: 1.3;
+     margin-left: 1%;
+    margin-right: 15%;
+    color: #777;
+    
+}
+
+blockquote cite{
+    
+    font-size: .75em;
+    margin-bottom: 100em;
+    color: #777;
+}
+
+li{
+    list-style:square;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-left: 1%;
+    margin-right: 15%;
+    line-height: 1.3;
+    position: relative;
+}
+
+#introduction{
+    
+    background-color:#fff;
+    padding-top: 50px;
+    color:#000;
+    width: 600px;
+    margin-left: 55%;
+}
+
+#his-views{
+    
+    background-color:#f7f7f7;
+    padding-top: 50px;
+    color:#000;
+    width: 600px;
+    margin-left: 55%;
+}
+
+#his-principles{
+    
+    background-color:#fff;
+    padding-top: 50px;
+    color:#000;
+    width: 600px;
+    margin-left: 55%;
+}
+
+#his-work{
+    
+    background-color:#f7f7f7;
+    padding-top: 50px;
+    color:#000;
+    width: 600px;
+    margin-left: 55%;
+}
+
+#conclusion{
+    
+    background-color:#fff;
+    padding-top: 50px;
+    color:#000;
+    width: 600px;
+    margin-left: 55%;
+}
+
+#bibliography{
+    
+    background-color:#f7f7f7;
+    padding-top: 50px;
+    color:#000;
+    width: 600px;
+    margin-left: 55%;
+}
+
+
+/* ---- LINKS-----*/
+
+a{
+    
+    color: #333;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    
+    color: #006341;
+    border-bottom: 1px dotted;
+    
+}
+
+a:link{
+    
+    border-bottom: 1px;
+}
+
+
+
+/* ---- NAV-----*/
+
+nav{
+    
+    padding: 1em 0;
+
+    
+    
+}
+
+nav ul{
+    
+    text-align: center;
+    letter-spacing: 2px;
+    
+}
+
+nav ul li{
+    
+    display: inline;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+nav a:hover{
+    
+    border-bottom: none;
+    
+}
+
+/* ---- LAPTOP-----*/
+
+@media (max-width: 75em){
+    
+    body{
+        
+        background-color: #fff;
+        margin: auto;
+        width: 100%;
+        font-size: 110%;
+    }
+        
+            #heroimage{
+    
+    background-color:#f7f7f7;
+    color:#000;
+    text-align: center;
+    height: 350px;
+    
+}
+    
+        #introduction{
+    
+    background-color:#fff;
+    padding-top: 50px;
+    color:#000;
+    width: 390px;
+    margin-left: 55%;
+}
+    
+    #his-views{
+    
+    background-color:#f7f7f7;
+    padding-top: 50px;
+    color:#000;
+    width: 390px;
+    margin-left: 55%;
+}
+    
+        #his-principles{
+    
+    background-color:#fff;
+    padding-top: 50px;
+    color:#000;
+    width: 390px;
+    margin-left: 55%;
+}
+    
+        #his-work{
+    
+    background-color:#f7f7f7;
+    padding-top: 50px;
+    color:#000;
+    width: 390px;
+    margin-left: 55%;
+}
+    
+            #conclusion{
+    
+    background-color:#fff;
+    padding-top: 50px;
+    color:#000;
+    width: 390px;
+    margin-left: 55%;
+}
+    
+            #bibliography{
+    
+    background-color:#f7f7f7;
+    padding-top: 50px;
+    color:#000;
+    width: 390px;
+    margin-left: 55%;
+}
+    
+    h1{
+        top: 35%;
+    font-size: 2.75em;
+    position: relative;
+         text-align: center;
+}
+
+h2{
+    font-size: 1.75em;
+    position: relative;
+     text-align: center;
+    top: 35%;
+}
+
+h3{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-left: 1%;
+    margin-right: 15%;
+}
+    
+p{
+    font-size: 1em;
+    margin-left: 1%;
+    margin-right: 15%;
+    position:relative;
+    line-height: 1.3;
+    
+}
+    
+    p2{
+    font-size: 40em;
+    left:-10%;
+    padding-top:-200px;
+    position:absolute;
+    
+}
+    
+    blockquote{
+    
+    padding: 1em 0 2em 1em;
+    font-size: 1em;
+    line-height: 1.3;
+     margin-left: 1%;
+    margin-right: 15%;
+    color: #777;
+    
+}
+
+blockquote cite{
+    
+    font-size: .75em;
+    margin-bottom: 100em;
+    color: #777;
+}
+    
+    li{
+    list-style:square;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-left: 1%;
+    margin-right: 15%;
+    line-height: 1.3;
+    position: relative;
+}
+
+    
+
+    
+    
+}
+
+/* ---- TABLET-----*/
+
+@media (max-width: 50em){
+    
+    body{
+        
+        background-color: #fff;
+        margin: auto;
+        width: 100%;
+        font-size: 110%;
+    }
+        
+            #heroimage{
+    
+    background-color:#f7f7f7;
+    color:#000;
+    text-align: center;
+    height: 250px;
+    
+}
+    
+        #introduction{
+    
+    background-color:#fff;
+    padding-top: 50px;
+    color:#000;
+    width: 283px;
+    margin-left: 50%;
+}
+    
+    #his-views{
+    
+    background-color:#f7f7f7;
+    padding-top: 50px;
+    color:#000;
+    width: 283px;
+    margin-left: 50%;
+}
+    
+        #his-principles{
+    
+    background-color:#fff;
+    padding-top: 50px;
+    color:#000;
+    width: 283px;
+    margin-left: 50%;
+}
+    
+        #his-work{
+    
+    background-color:#f7f7f7;
+    padding-top: 50px;
+    color:#000;
+    width: 283px;
+    margin-left: 50%;
+}
+    
+            #conclusion{
+    
+    background-color:#fff;
+    padding-top: 50px;
+    color:#000;
+    width: 283px;
+    margin-left: 50%;
+}
+    
+            #bibliography{
+    
+    background-color:#f7f7f7;
+    padding-top: 50px;
+    color:#000;
+    width: 283px;
+    margin-left: 50%;
+}
+    
+    h1{
+        top: 35%;
+    font-size: 2em;
+    position: relative;
+        text-align: center;
+}
+
+h2{
+    font-size: 1em;
+    position: relative;
+     text-align: center;
+    top: 35%;
+}
+
+h3{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-left: 1%;
+    margin-right: 14%;
+}
+    
+p{
+    font-size: 1em;
+    margin-left: 1%;
+    margin-right: 14%;
+    line-height: 1.3;
+    position: relative;
+}
+    
+    p2{
+    font-size: 30em;
+    left:-10%;
+    padding-top:-200px;
+    position:absolute;
+    
+}
+    
+    blockquote{
+    
+    padding: 1em 0 2em 1em;
+    font-size: 1em;
+    line-height: 1.3;
+     margin-left: 1%;
+    margin-right: 15%;
+    color: #777;
+    
+}
+
+blockquote cite{
+    
+    font-size: .75em;
+    margin-bottom: 100em;
+    color: #777;
+}
+    
+    li{
+    list-style:square;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-left: 1%;
+    margin-right: 15%;
+    line-height: 1.3;
+    position: relative;
+}
+
+    
+
+    
+    
+}
+
+/* ---- SMARTPHONE-----*/
+
+@media (max-width: 35em){
+    
+    
+    body{
+        
+        margin: 0 auto;
+        width: 100%;
+        font-size: 100%; 
+    }
+    
+    
+    #heroimage{
+    
+    background-color:#f7f7f7;
+    color:#000;
+    text-align: center;
+    height: 250px;
+    
+}
+    
+    #introduction{
+    
+    background-color:#fff;
+    padding-top: 50px;
+    color:#000;
+    width: 200px;
+    margin-left: 40%;
+}
+    
+    #his-views{
+    
+    background-color:#f7f7f7;
+    padding-top: 50px;
+    color:#000;
+    width: 200px;
+    margin-left: 40%;
+}
+    
+        #his-principles{
+    
+    background-color:#fff;
+    padding-top: 50px;
+    color:#000;
+    width: 200px;
+    margin-left: 40%;
+}
+    
+        #his-work{
+    
+    background-color:#f7f7f7;
+    padding-top: 50px;
+    color:#000;
+    width: 200px;
+    margin-left: 40%;
+}
+    
+            #conclusion{
+    
+    background-color:#fff;
+    padding-top: 50px;
+    color:#000;
+    width: 200px;
+    margin-left: 40%;
+}
+    
+            #bibliography{
+    
+    background-color:#f7f7f7;
+    padding-top: 50px;
+    color:#000;
+    width: 200px;
+    margin-left: 40%;
+}
+    
+    h1{
+        top: 35%;
+    font-size: 1.75em;
+    position: relative;
+        text-align: center;
+}
+
+h2{
+    font-size: 0.75em;
+    position: relative;
+     text-align: center;
+    top: 35%;
+}
+
+h3{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-left: 1%;
+    margin-right: 1%;
+    position: relative;
+}
+    
+p{
+    font-size: 1em;
+    margin-left: 1%;
+    margin-right: 1%;
+    line-height: 1.3;
+    position: relative;
+}
+    
+p2{
+    font-size: 20em;
+    left:-10%;
+    padding-top:-200px;
+    position:absolute;
+}
+    
+blockquote{
+    
+    padding: 1em 0 2em 1em;
+    font-size: 1em;
+    line-height: 1.3;
+     margin-left: 1%;
+    margin-right: 15%;
+    color: #777;
+    
+}
+
+blockquote cite{
+    
+    font-size: .75em;
+    margin-bottom: 100em;
+    color: #777;
+}
+    
+    li{
+    list-style:square;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-left: 1%;
+    margin-right: 15%;
+    line-height: 1.3;
+    position: relative;
+}
+    
+    hgroup{}
+        
+    
+    
+    
+    
+    
+    
+    
+    
 }
