@@ -155,6 +155,15 @@ hr{
     margin-left: 50%;
 }
 
+#social-media{
+    
+    background-color:#fff;
+    padding-top: 50px;
+    color:#000;
+    width: 600px;
+    margin-left: 50%;
+}
+
 
 /* ---- LINKS-----*/
 
@@ -279,6 +288,15 @@ nav a:hover{
             #bibliography{
     
     background-color:#f7f7f7;
+    padding-top: 50px;
+    color:#000;
+    width: 400px;
+    margin-left: 50%;
+}
+    
+            #social-media{
+    
+    background-color:#fff;
     padding-top: 50px;
     color:#000;
     width: 400px;
@@ -435,6 +453,15 @@ blockquote cite{
     margin-left: 50%;
 }
     
+            #social-media{
+    
+    background-color:#fff;
+    padding-top: 50px;
+    color:#000;
+    width: 283px;
+    margin-left: 50%;
+}
+    
     h1{
         top: 35%;
     font-size: 2em;
@@ -580,6 +607,15 @@ blockquote cite{
             #bibliography{
     
     background-color:#f7f7f7;
+    padding-top: 50px;
+    color:#000;
+    width: 310px;
+    margin-left: 40%;
+}
+    
+    #social-media{
+    
+    background-color:#fff;
     padding-top: 50px;
     color:#000;
     width: 310px;
@@ -742,6 +778,16 @@ blockquote cite{
     margin-left: 40%;
 }
     
+   #social-media{
+    
+    background-color:#fff;
+    padding-top: 50px;
+    color:#000;
+    width: 227.5px;
+    margin-left: 40%;
+    
+}
+    
     h1{
         top: 35%;
     font-size: 1.75em;
@@ -811,18 +857,10 @@ blockquote cite{
     img{
         width:200px;
         height:200px;
-    }
-    
-    hgroup{}
-        
+    }        
     
     hr{
     width:127.5px;
 }
-    
-    
-    
-    
-    
-    
+
 }
