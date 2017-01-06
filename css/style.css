@@ -794,6 +794,11 @@ blockquote cite{
     position: relative;
 }
     
+    img{
+        width:200px;
+        height:200px;
+    }
+    
     hgroup{}
         
     
