@@ -97,6 +97,10 @@ li{
     position: relative;
 }
 
+hr{
+    width:500px;
+}
+
 #introduction{
     
     background-color:#fff;
@@ -327,7 +331,7 @@ p{
      margin-left: 1%;
     margin-right: 15%;
     color: #777;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 blockquote cite{
@@ -335,6 +339,7 @@ blockquote cite{
     font-size: .75em;
     margin-bottom: 100em;
     color: #777;
+    font-family: Arial, Helvetica, sans-serif;
 }
     
     li{
@@ -347,7 +352,9 @@ blockquote cite{
     position: relative;
 }
 
-    
+  hr{
+    width:300px;
+}  
 
     
     
@@ -473,7 +480,7 @@ p{
      margin-left: 1%;
     margin-right: 15%;
     color: #777;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 blockquote cite{
@@ -481,6 +488,7 @@ blockquote cite{
     font-size: .75em;
     margin-bottom: 100em;
     color: #777;
+    font-family: Arial, Helvetica, sans-serif;
 }
     
     li{
@@ -493,7 +501,9 @@ blockquote cite{
     position: relative;
 }
 
-    
+    hr{
+    width:183px;
+}
 
     
     
@@ -621,7 +631,7 @@ blockquote{
      margin-left: 1%;
     margin-right: 15%;
     color: #777;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 blockquote cite{
@@ -629,6 +639,7 @@ blockquote cite{
     font-size: .75em;
     margin-bottom: 100em;
     color: #777;
+    font-family: Arial, Helvetica, sans-serif;
 }
     
     li{
@@ -644,7 +655,9 @@ blockquote cite{
     hgroup{}
         
     
-    
+    hr{
+    width:310px;
+}
     
     
     
@@ -774,7 +787,7 @@ blockquote{
      margin-left: 1%;
     margin-right: 15%;
     color: #777;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 blockquote cite{
@@ -782,6 +795,7 @@ blockquote cite{
     font-size: .75em;
     margin-bottom: 100em;
     color: #777;
+    font-family: Arial, Helvetica, sans-serif;
 }
     
     li{
@@ -802,7 +816,9 @@ blockquote cite{
     hgroup{}
         
     
-    
+    hr{
+    width:127.5px;
+}
     
     
     
